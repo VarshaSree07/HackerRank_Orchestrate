@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Deletion Audit Agent (main.py)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/code/main.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Run Benchmark Evaluation",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/code/evaluation/main.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Run Unit & Integration Tests",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/code/tests/test_hybrid_agent.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
+
